@@ -10,7 +10,12 @@ function App() {
           <Dictionary />
         </main>
       </div>
-      <footer className="App-footer">Coded by Diana Dancante</footer>
+      <footer className="App-footer">
+        This project was coded by Diana Dancante and is{" "}
+        <a href="https://github.com/dianasdd/dictionary-project">
+          open-sourced on GitHub
+        </a>
+      </footer>
     </div>
   );
 }
