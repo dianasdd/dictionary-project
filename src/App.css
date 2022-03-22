@@ -1,3 +1,56 @@
+em {
+  color: #fb4d63;
+  opacity: 0.8;
+  display: block;
+  margin: 5px;
+}
+
+a {
+  color: #fb4d63;
+}
+
+hr {
+  display: block;
+  margin: 40px 80px 0 40px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #f95989;
+  display: table;
+  margin-top: 25px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+  display: block;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
+}
+
+.Dictionary h1 {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 18px;
+}
+
 .App-header {
   margin: 30px 0;
 }
@@ -6,4 +59,61 @@
   text-align: center;
   margin: 30px 0;
   font-size: smaller;
+}
+
+.container {
+  max-width: 900px;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  padding: 20px 50px 90px 50px;
+}
+
+.Meaning {
+  margin-top: 30px;
+}
+
+.Results {
+  text-align: left;
+  padding: 10px 0 0 40px;
+}
+
+.App-logo {
+  max-width: 90px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+.Phonetic a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+  display: table;
+  margin: 10px 0 3px 0;
+  font-weight: bold;
+}
+
+.Phonetic a:hover {
+  background: #f95989;
+  color: white;
+}
+
+.Phonetic .text {
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Synonyms li {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 12px;
+  opacity: 0.6;
+  font-weight: bold;
 }
