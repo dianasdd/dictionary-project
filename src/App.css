@@ -26,6 +26,12 @@ h3 {
   font-weight: bold;
 }
 
+.container {
+  max-width: 900px;
+  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  padding: 20px 50px 90px 50px;
+}
+
 .Dictionary section {
   background: white;
   padding: 30px;
@@ -51,6 +57,12 @@ h3 {
   margin-bottom: 18px;
 }
 
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  text-align: left;
+}
+
 .App-header {
   margin: 30px 0;
 }
@@ -59,12 +71,6 @@ h3 {
   text-align: center;
   margin: 30px 0;
   font-size: smaller;
-}
-
-.container {
-  max-width: 900px;
-  background: linear-gradient(to top, #dfe9f3 0%, white 100%);
-  padding: 20px 50px 90px 50px;
 }
 
 .Meaning {
@@ -80,12 +86,6 @@ h3 {
   max-width: 90px;
   display: block;
   margin: 0 auto;
-}
-
-.Dictionary .hint {
-  font-size: 11px;
-  margin-top: 5px;
-  text-align: left;
 }
 
 .Phonetic a {
